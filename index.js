@@ -53,7 +53,7 @@ async function main() {
   });
 
   // show result by find data of array object data
-  console.log("rowData", rowData.find((d) => d["Fund Name"] === params)["Nav"]);
+  console.log(rowData.find((d) => d["Fund Name"] === params)["Nav"]);
 }
 
 main();
